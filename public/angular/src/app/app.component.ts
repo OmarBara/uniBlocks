@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular';
+  toggle = true;
+
+  onToggle(){
+    this.toggle = !this.toggle
+  }
 }
